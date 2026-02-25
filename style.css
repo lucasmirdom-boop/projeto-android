@@ -1,0 +1,205 @@
+@import url(stylesheet);
+
+        @font-face {
+            font-family: 'droid';
+            src: url(fontes/idroid.otf);
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        :root{
+            /*LEMBRAR DE FAZER VARIÁVEL*/
+        }
+        body{
+            background-color: #84E1AD;
+        }
+
+        h1, h2, h3, body{
+            margin: 0px;
+            color: #1a422d;
+        }
+        header{
+            text-align: center;
+            background: linear-gradient(to top, #195935, #3BD57F);
+            padding-top: 30px;
+            height: 150px;
+            box-shadow: 5px 5px 10px #19593588;
+        }
+        h2.hearder{
+            font-size: 32px;
+            margin-top: 0px;
+            margin-bottom: 22px;
+            width: 100%;
+        }
+        .hearder{
+            font-style: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 10px;
+            font-size: 14px;
+            width: 400px;
+            margin: auto;
+
+        }
+        p {
+            line-height: 2em;
+            margin: 10px;
+            font-family: sans-serif;
+            text-indent: 40px;
+        }
+
+/*------------------------CORPO------------------------*/
+        
+        
+        h1.corpo{
+            width: 700px;
+            height: 27px;
+            font-size: 24px;
+            font-family:'droid';
+
+        }
+        h2.corpo{
+            font-size: 1.3em;
+            width: 550px;
+            margin: 0px;
+            padding: 0px 10px;
+            background: linear-gradient(to right, #C5EBD5,  transparent);
+            font-family: 'droid';
+        }
+        
+        
+        div.corpo{
+            padding: 4px 15px 15px 15px;
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            max-width: 800px;
+            min-width: 600px;
+            text-align: justify;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 2px 10px #19593576;
+
+        }
+        .video{
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #195935;
+            text-align: center;
+        }
+        ul{
+            margin-left: 30px;
+            display: inline-block;
+        }
+        
+
+/*------------------------------------------------------*/
+
+/*------------------------LISTA------------------------*/
+
+        h2.lista{
+            border-radius: 10px 10px 0px 0px;
+            font-family: sans-serif, monospace;
+            font-size: 15px;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            background-color: #2FA866;
+
+        }
+        div.corpo-lista{
+            padding: 0px 10px 1px 10px;
+        }
+        div.lista{
+            height: 390px;
+            background-color: #C5EBD6;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.484);
+
+        }
+        img{
+            width: 100%;
+        }
+
+        .bugdroid {
+            width: 300px;
+        }
+        .center{
+            text-align: center;
+        }
+
+        div.menu{
+            width: 600px;
+            margin: 31px 0px 10px 0px;
+            padding: 0px;
+            text-align: left;
+        }
+        a.hearder-a{
+            font-size: large;
+            font-family: monospace;
+            color: white;
+            text-decoration: none;
+            padding: 9.5px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        a:hover{
+            transition-duration: 0.5s;
+            color: #195935;
+            text-decoration: underline;
+            background-color: #3bd57e77;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+
+/*Ao invés de editar na mão, use esses estilos: 
+list-style-type: 
+list-style-position: inside;
+columns: 2;
+
+
+*/
+
+         div.corpo-lista > p {
+            margin: 6px 10px 10px 10px;
+
+         }
+         div.lista > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #195935;
+            background-color:#3BD57F ;
+         }
+
+/*------------------------------------------------------*/
+/*-----------------------RODAPÉ-------------------------*/
+
+div.rodape{
+    margin-top: 10px;
+    height: 35px;
+    padding: 1px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #195935;
+}
+.rodape-p{
+    margin-top: 4px;
+    padding: 0px;
+}
+/*------------------------------------------------------*/
+
+
+/*  estilos e cores
+
+header: 
+bgcolor: #195935 --> #3BD57F
+
+body:
+bgcolor --> #84E1AD
+        
+h1: 
+color --> #286745
+
+h2: 
+color --> #286745
+bgcolor --> #C5EBD5 - branco */
+
